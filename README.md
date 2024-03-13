@@ -1,2 +1,0 @@
-# ddmix
-personal blog 
