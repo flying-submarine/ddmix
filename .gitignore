@@ -4,3 +4,4 @@
 *.iml
 *.pack
 /target
+node_modules/
