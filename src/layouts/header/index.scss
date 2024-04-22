@@ -1,0 +1,47 @@
+.headerContent{
+    .ant-layout-header{
+        display: flex;
+        background:#FFF;
+        padding: 10px 0;
+        line-height: 44px;
+        border-bottom: 1px solid #e3e3e3;
+        .ant-menu-item{
+            font-size:16px;
+            font-weight: 500;
+            color: #585d66;
+        }
+        .ant-menu-dark.ant-menu-horizontal > .ant-menu-item, .ant-menu-dark.ant-menu-horizontal > .ant-menu-submenu {
+            padding: 0 40px;
+        }
+        .ant-menu-item:hover{
+            background: linear-gradient(109deg, #3984ff 1%, #5743f2 99%);border-radius: 6px!important;
+            color: #FFF;
+        }
+        .isWorkBench{
+            .ant-menu-item-selected{
+                background: linear-gradient(109deg, #3984ff 1%, #5743f2 99%);border-radius: 6px!important;
+                color: #FFF;
+            }
+        }
+        .ant-menu{
+            flex:3;
+            background:#FFF;
+        }
+        .logo{
+            padding: 0 200px 0 16px;
+            img{
+                height: 30px;
+            }
+        }
+        .info{
+            margin:0 1rem;
+            font-size:14px;
+            font-weight: 600;
+            .ant-space-item{
+                color:#585d66;
+            }
+        }
+    }
+}
+
+

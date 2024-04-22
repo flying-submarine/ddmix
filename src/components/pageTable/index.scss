@@ -1,0 +1,71 @@
+.page_Table{
+    a {
+        
+        font-weight: 400;
+        color: #FE6900; 
+    }
+    .ant-pagination-item-active{ 
+        border-color: #FFF1E6;
+        background: #FFF1E6;
+        & > a {
+            font-weight: 600;
+            color: #FE6900;
+        }
+    }
+    .ant-tag{
+        box-shadow: 2px 3px 10px 0px rgba(22,57,117,0.1);
+        border-radius: 10px;
+        font-size: 14px;
+        line-height: 26px;
+        text-align: center;
+        border: none;
+        padding: 0 15px;
+    } 
+    .ant-table-container table > thead > tr:first-child th:last-child {
+        text-align: center;
+    }
+    .ant-pagination-item:hover{ 
+        border-color: #FFF1E6;
+        background: #FFF1E6;
+        & > a {
+            font-weight: 600;
+            color: #FE6900;
+        }
+    } 
+    .ant-btn-link{ 
+        
+        font-weight: 400;
+        color: #FE6900; 
+    }
+    .ant-btn-link[disabled]{ // link style
+        color: rgba(0, 0, 0, 0.25);
+        border-color: transparent;
+        background: transparent;
+        text-shadow: none;
+        box-shadow: none;
+    }
+    .ant-btn-link:hover{
+        
+        font-weight: 400;
+        color: #FE6900; 
+    }
+    .ant-btn-link:focus{
+        
+        font-weight: 400;
+        color: #FE6900; 
+    }
+    .ant-table-tbody > tr.ant-table-row:hover > td{
+        background: rgba(254,239,227);
+        color: #000000;
+    }
+}
+.expandClass{
+    .ant-table-container table > thead > tr:first-child th:first-child {
+        text-align: center;
+    }
+    .ant-table-row{
+        td:first-child{
+            text-align: left!important;
+        }
+    }
+}

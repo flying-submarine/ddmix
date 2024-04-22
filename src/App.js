@@ -1,11 +1,14 @@
-import './App.css';
+import { Routes, Route,Navigate} from 'react-router-dom'
+import LayoutContent from '@/layouts/index'
 
-function App() {
+const APP = () =>{
   return (
-    <div className="App">
-      
-    </div>
-  );
-}
+    <Routes>
+      <Route path='/talk' element={<LayoutContent/>}>
+      </Route>
+      <Route path='*' element={<Navigate replace to="talk" />}/>
+    </Routes>
+  )
+} 
+export default APP
 
-export default App;

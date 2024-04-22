@@ -1,0 +1,128 @@
+.qaComponent{
+  
+  .prompt-box{
+    align-items: flex-start;
+    display: flex;
+    padding: 0 20px;
+    .prompt-box-avatar{
+      border-radius: 50%;
+      height: 28px;
+      margin-right: 16px;
+      overflow: hidden;
+      width: 28px;
+    }
+    .prompt-box-desc{
+      flex:1;
+      padding-top: 6px;
+      .prompt-box-desc-prompt{
+        -webkit-text-fill-color: #333;
+        background: transparent;
+        border: 0;
+        border-radius: 0;
+        color: #333;
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 24px;
+        padding: 0;
+        white-space: pre-wrap;
+        width: 100%;
+        word-break: break-all;
+      }
+      
+    }
+  }
+  .chat-box-wrap{
+    background-color: #f7f9fd;
+    border-radius: 20px;
+    margin: 16px 0;
+    padding: 12px 20px;
+    width: 100%;
+    .model-basic-info, .model-basic-info-left {
+      align-items: center;
+      display: flex;
+      .model-basic-info-logo {
+        border-radius: 50% 50%;
+        height: 28px;
+        margin-right: 12px;
+        width: 28px;
+      }
+      .model-basic-info-name {
+        color: #333;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 36px;
+      }
+    }
+    .have-service-chat-box {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      position: relative;
+      width: 100%;
+    }
+    .ChatBox {
+      height: 100%;
+      position: relative;
+      width: 100%;
+    }
+    .ChatBox-contents {
+      height: 100%;
+      overflow: auto;
+      width: 100%;
+    }
+    .ChatBox-contents-inner {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    .ChatBox-contents-inner-box {
+      box-sizing: border-box;
+      display: flex;
+      width: 100%;
+    }
+    .ChatBox-contents-inner-box-text {
+      color: #333;
+      flex: 1;
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 24px;
+      overflow-x: hidden;
+      word-break: break-all;
+    }
+    .ChatBox-contents-inner-box-text p {
+      color: inherit;
+      font-size: inherit;
+      line-height: inherit;
+      white-space: pre-line;
+      word-break: break-word;
+    }
+  }
+}
+.divider-line{
+  display: flex;
+  height:25px;
+  margin: 16px 0;
+  .text{
+    padding: 0 16px;
+    width: 140px;
+    color: #c7c7c7;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  & > p:first-child{
+    flex: 1;
+    height: 1px;
+    background-color: #eee;
+    margin-top: 10px;
+  }
+  & > p:last-child{
+    flex: 1;
+    height: 1px;
+    background-color: #eee;
+    margin-top: 10px;
+  }
+}

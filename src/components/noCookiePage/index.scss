@@ -1,0 +1,19 @@
+.noCookiePage{
+    background-color: #fff;
+    min-height: calc(100vh - 104px);
+    padding-top: 100px;
+    .svgStyle{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    & > div {
+        display: flex;
+        justify-content: center;
+        & > div {
+            display: flex;
+            flex-direction: column;
+        }
+        
+    }
+}

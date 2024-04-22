@@ -1,0 +1,120 @@
+@import '~antd/dist/antd.css';
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  p {
+    margin: 0;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+// .ant-btn-link:hover, .ant-btn-link:focus {
+//     color: #FE6900;
+//     background: transparent;
+// }
+// .ant-popover-buttons{
+//   .ant-btn-primary {
+//       border-color: #FE6900;
+//       background: #FE6900;
+//       text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+//       box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+//   }
+//   .ant-btn-default:hover, .ant-btn-default:focus {
+//     color: #FE6900;
+//     border-color: #FE6900;
+//   }
+// }
+
+// a:hover {
+//     color: #FE6900;
+// }
+
+// .ant-btn-link:hover,.ant-btn-link:hover,.ant-btn-link:hover {
+//   color: #FE6900;
+// }
+// .ant-select-focused{
+//   border-color: #FE6900;;
+// }
+// .ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector { //下拉框悬浮
+//   border-color: #FE6900;
+//   box-shadow: 0px 2px 9px 0px #fe6900;
+// }
+// .ant-input-affix-wrapper:focus, .ant-input-affix-wrapper-focused {
+//   border-color: #FE6900;
+//     box-shadow: 0px 2px 9px 0px #fe6900;
+// }
+
+// .ant-input:focus,.ant-input:hover {
+//   border-color: #FE6900;
+//   box-shadow: 0px 2px 9px 0px #fe6900;
+// }
+// .ant-picker-range .ant-picker-active-bar {
+//   background: #FE6900;
+// }
+// .ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+//   border-color: #FE6900;
+// }
+// .ant-picker:hover, .ant-picker-focused {
+//   border-color: #FE6900;
+//   box-shadow: 0px 2px 9px 0px #fe6900;
+// }
+
+// .ant-select:not(.ant-select-disabled):hover,.ant-select-selector {
+//   border-color: #FE6900;
+// }
+// .ant-input-number:hover,.ant-input-number:focus, .ant-input-number-focused {
+//   border-color: #FE6900;
+//   box-shadow: 0px 2px 9px 0px #fe6900;
+// }
+// .ant-radio-inner::after {
+//   background-color: #FE6900;
+// }
+// .ant-radio-checked .ant-radio-inner {
+//   border-color: #FE6900;
+// }
+// .ant-radio:hover .ant-radio-inner, .ant-radio-input:focus + .ant-radio-inner {
+//   border-color: #FE6900;
+//   box-shadow: 0px 2px 9px 0px #fe6900;
+// }
+// .ant-table-row-indent + .ant-table-row-expand-icon {
+//   border-color: #FFFFFF;
+//   color: #FFFFFF;
+// }
+// .ant-table-row-level-1{
+//   background: rgba(0, 0, 0, 0.02);
+// }
+// .ant-dropdown {
+//   .ant-btn-link{
+//     color: #000000;
+//   }
+//   .ant-dropdown-menu-item:hover, .ant-dropdown-menu-submenu-title:hover, .ant-dropdown-menu-item.ant-dropdown-menu-item-active, .ant-dropdown-menu-item.ant-dropdown-menu-submenu-title-active, .ant-dropdown-menu-submenu-title.ant-dropdown-menu-item-active, .ant-dropdown-menu-submenu-title.ant-dropdown-menu-submenu-title-active {
+//     background-color: rgb(254, 239, 227);
+//     .ant-btn-link{
+//       color: #FE6900;
+//     }
+//   }
+// }
+// .ant-btn-link[disabled], .ant-btn-link[disabled]:hover, .ant-btn-link[disabled]:focus, .ant-btn-link[disabled]:active {
+//   color: rgba(0, 0, 0, 0.25)!important;
+// }
+// .ant-spin-dot-item{
+//   background-color: #FE6900;
+// }
+// .ant-message-info .anticon, .ant-message-loading .anticon {
+//     color: #FE6900;
+// }
+
+// .ant-tag {
+//     box-shadow:none!important;
+// }
+
+// .anticon-delete{
+//     color: rgb(254, 105, 0);
+// }
