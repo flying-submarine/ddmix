@@ -1,6 +1,7 @@
 import { Input } from 'antd';
 import { EditOutlined,PlusCircleOutlined} from '@ant-design/icons'
 import { useState,useEffect,useRef } from 'react';
+import Chat from './chat.png'; 
 import QaComponent from './qaComponent';
 
 import './index.scss'
@@ -170,7 +171,7 @@ const WorkBench = ()=>{
     return <div className='workBench_page'>
         <div className="model-basic-info">
             <div className="model-basic-info-left">
-                <img src="https://platform.idealab.alibaba-inc.com/20231227/2cefc3ca-15ab-4991-b1cb-4a6726ba7861_qianwen.jpg?Expires=4102329600&amp;OSSAccessKeyId=LTAI5tFJF3QLwHzEmkhLs9dB&amp;Signature=tEhARJQVqkiRCZAcgSUBQutl%2FN8%3D" alt="" className="model-basic-info-logo" data-spm-anchor-id="0.0.0.i23.369e5fb49OWRKW"/>
+                <img src={Chat}/>&nbsp;&nbsp;
                 <div className="model-basic-info-name">
                     AI 快说
                     <PlusCircleOutlined 
@@ -193,14 +194,13 @@ const WorkBench = ()=>{
         </div>
         <div className='q_content'>
             <div className="prompt-multimodal-input-plus-content-logos">
-                <img src="https://idealab-platform.oss-accelerate.aliyuncs.com/20231227/2cefc3ca-15ab-4991-b1cb-4a6726ba7861_qianwen.jpg?Expires=4102329600&amp;OSSAccessKeyId=LTAI5tFJF3QLwHzEmkhLs9dB&amp;Signature=tEhARJQVqkiRCZAcgSUBQutl%2FN8%3D"/>
+                <img src={Chat}/>
             </div>
             <TextArea 
                 rows={4}
                 height={'200px'}
                 value={inText}
                 onChange={changeIntext}
-                prefix={<EditOutlined />}
                 onPressEnter={inputEnter}
                 placeholder='Please input...'
                 autoFocus

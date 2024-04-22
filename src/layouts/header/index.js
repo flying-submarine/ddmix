@@ -1,6 +1,6 @@
 import { Layout,Dropdown, Menu, Space, Avatar, Affix, Button} from 'antd';
 import { DownOutlined,FormOutlined,LogoutOutlined } from '@ant-design/icons';
-import Logo from './logo.png'; 
+import Logo from './logo.svg'; 
 import User from './user.jpeg'; 
 import { useNavigate } from "react-router-dom";
 import "./index.scss"
