@@ -40,6 +40,7 @@
     "js-cookie": "^3.0.1",
     "mini-css-extract-plugin": "^2.4.5",
     "moment": "^2.29.4",
+    "openai": "^4.38.2",
     "postcss": "^8.4.4",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-loader": "^6.2.1",
@@ -74,7 +75,7 @@
     "build": "cross-env node scripts/build.js",
     "test": "cross-env node scripts/test.js"
   },
-  "homepage":"",
+  "homepage": "",
   "eslintConfig": {
     "extends": [
       "react-app",
