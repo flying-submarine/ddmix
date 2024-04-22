@@ -1,5 +1,6 @@
-import { Layout,Dropdown, Menu, Space, Avatar, Affix,message, Button} from 'antd';
+import { Layout,Dropdown, Menu, Space, Avatar, Affix, Button} from 'antd';
 import { DownOutlined,FormOutlined,LogoutOutlined } from '@ant-design/icons';
+import Logo from './logo.png'; 
 import User from './user.jpeg'; 
 import { useNavigate } from "react-router-dom";
 import "./index.scss"
@@ -49,10 +50,7 @@ export default function HeaderContent() {
     <Affix className='headerContent'>
       <Header>
         <div className='logo'>
-          <img 
-            src='https://img.alicdn.com/imgextra/i2/O1CN01EhxJJz1fMqPcnRyJR_!!6000000003993-2-tps-497-120.png' 
-            alt="error"
-          />
+          {/* <img src={Logo} alt="error" /> */}
         </div>
         <Menu
           theme="dark"
@@ -61,15 +59,11 @@ export default function HeaderContent() {
           items={[
             { 
               key:"/",
-              label:"ideaTALK",
+              label:"AI 快说",
             },
             { 
               key:"/talk1",
-              label:"Workspace",
-            },
-            { 
-              key:"/talk2",
-              label:"ideaIMAGE",
+              label:"工作台",
             },
           ]}
           className={'isWorkBench'}

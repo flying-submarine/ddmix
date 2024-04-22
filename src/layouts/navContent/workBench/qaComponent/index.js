@@ -1,5 +1,4 @@
 import User from './user.jpeg'; 
-
 import './index.scss'
 
 const QaComponent = ({item})=>{
@@ -23,7 +22,7 @@ const QaComponent = ({item})=>{
       <div className="model-basic-info">
         <div className="model-basic-info-left">
           <img src="https://platform.idealab.alibaba-inc.com/20231227/2cefc3ca-15ab-4991-b1cb-4a6726ba7861_qianwen.jpg?Expires=4102329600&amp;OSSAccessKeyId=LTAI5tFJF3QLwHzEmkhLs9dB&amp;Signature=tEhARJQVqkiRCZAcgSUBQutl%2FN8%3D" alt="" className="model-basic-info-logo" data-spm-anchor-id="0.0.0.i23.369e5fb49OWRKW"/>
-          <div className="model-basic-info-name">Qwen-Turbo-Poly-Chat_HF</div>
+          <div className="model-basic-info-name">AI</div>
         </div>
       </div>
       <div className="have-service-chat-box">
