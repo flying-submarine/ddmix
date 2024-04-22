@@ -17,7 +17,7 @@ export default function HeaderContent() {
         {
           key: 'changePwd',
           label: (
-            <Button type="text" onClick={()=>navigate(`/talk`)}>
+            <Button type="text" onClick={()=>navigate(`/`)}>
               <FormOutlined />Change Password
             </Button>
           )
@@ -60,7 +60,7 @@ export default function HeaderContent() {
           onClick={menuOnclick}
           items={[
             { 
-              key:"/talk",
+              key:"/",
               label:"ideaTALK",
             },
             { 

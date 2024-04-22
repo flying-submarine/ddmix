@@ -4,9 +4,9 @@ import LayoutContent from '@/layouts/index'
 const APP = () =>{
   return (
     <Routes>
-      <Route path='/talk' element={<LayoutContent/>}>
+      <Route path='/' element={<LayoutContent/>}>
       </Route>
-      <Route path='*' element={<Navigate replace to="talk" />}/>
+      <Route path='*' element={<Navigate replace to="/" />}/>
     </Routes>
   )
 } 

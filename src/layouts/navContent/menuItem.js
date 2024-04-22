@@ -2,14 +2,8 @@
 
 export const menuItem = [
     { 
-        key:"/talk",
+        key:"/",
         label:"Test",
         popupClassName:'navMenuHeader',
-        // children: [
-        //     {
-        //         label: 'Test',
-        //         key: '/talk',
-        //     },
-        // ],
     },
 ]
