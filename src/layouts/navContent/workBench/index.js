@@ -3,6 +3,8 @@ import { EditOutlined,PlusCircleOutlined} from '@ant-design/icons'
 import { useState,useEffect,useRef } from 'react';
 import Chat from './chat.png'; 
 import QaComponent from './qaComponent';
+import OpenAI from "openai";
+
 
 import './index.scss'
 
@@ -17,7 +19,7 @@ const WorkBench = ()=>{
 
     const watchEvent = (timestamp,eText)=>{
         // async function getResponse(){
-        //     fetch('https://pre-llm-clouddoc.alibaba-inc.com/bigModel/chatStream', {
+        //     fetch('', {
         //         method: 'POST', // 设置请求方法为POST
         //         headers: {
         //             'Content-Type': 'application/json' // 设置请求头
